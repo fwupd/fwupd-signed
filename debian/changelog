@@ -1,0 +1,10 @@
+fwupd-signed (1.0) cosmic; urgency=medium
+
+  * Initial release.
+    - This is a package to support the signing of the EFI bianry now contained
+      directly in the fwupd package.
+    - The binary does not need to be installed to the EFI system partition at
+      package installation like fwupdate, but will instead be directly copied
+      at runtime only when needed.
+
+ -- Mario Limonciello <mario.limonciello@dell.com>  Sat, 04 Aug 2018 23:19:00 -0500
