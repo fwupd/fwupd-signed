@@ -1,3 +1,9 @@
+fwupd-signed (1.1) cosmic; urgency=medium
+
+  * Correct a typo on the download package name.
+
+ -- Mario Limonciello <mario.limonciello@dell.com>  Wed, 15 Aug 2018 08:57:33 -0500
+
 fwupd-signed (1.0) cosmic; urgency=medium
 
   * Initial release.
