@@ -1,6 +1,7 @@
 fwupd-signed (1.1) cosmic; urgency=medium
 
   * Correct a typo on the download package name.
+  * Build depends on fwupd 1.1.1-1
 
  -- Mario Limonciello <mario.limonciello@dell.com>  Wed, 15 Aug 2018 08:57:33 -0500
 
