@@ -1,3 +1,9 @@
+fwupd-signed (1.5) disco; urgency=medium
+
+  * Build depends on fwupd 1.2.4-3
+
+ -- Mario Limonciello <mario.limonciello@dell.com>  Thu, 14 Feb 2019 21:53:17 -0600
+
 fwupd-signed (1.4) disco; urgency=medium
 
   * Build depends on fwupd 1.2.4-1
