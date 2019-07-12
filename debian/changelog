@@ -1,3 +1,9 @@
+fwupd-signed (1.8) eoan; urgency=medium
+
+  * Build depends on fwupd 1.2.9-1ubuntu1
+
+ -- Mario Limonciello <mario.limonciello@dell.com>  Fri, 12 Jul 2019 16:17:27 -0500
+
 fwupd-signed (1.7) eoan; urgency=medium
 
   * Build-depends fwupd 1.2.6-1ubuntu1
