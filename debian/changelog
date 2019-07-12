@@ -1,3 +1,15 @@
+fwupd-signed (1.7) eoan; urgency=medium
+
+  * Build-depends fwupd 1.2.6-1ubuntu1
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 03 May 2019 17:57:11 -0700
+
+fwupd-signed (1.6) disco; urgency=medium
+
+  * Build depends fwupd 1.2.5-1ubuntu1
+
+ -- Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>  Thu, 11 Apr 2019 10:26:10 -0400
+
 fwupd-signed (1.5) disco; urgency=medium
 
   * Build depends on fwupd 1.2.4-3
