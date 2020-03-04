@@ -28,9 +28,9 @@ $(SIGNED):
 	./download-fwupd
 
 install: $(SIGNED)
-	install -d $(DESTDIR)/usr/lib/fwupd/efi
+	install -d $(DESTDIR)/usr/libexec/fwupd/efi
 	install -m0644 $(SIGNED) version \
-		$(DESTDIR)/usr/lib/fwupd/efi/
+		$(DESTDIR)/usr/libexec/fwupd/efi/
 
 clean:
 	rm -f $(SIGNED) version
