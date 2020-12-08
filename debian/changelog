@@ -1,3 +1,9 @@
+fwupd-signed (1.33) UNRELEASED; urgency=medium
+
+  * Build depensd on fwupd 1.5.3-1
+
+ -- Mario Limonciello <mario.limonciello@dell.com>  Tue, 08 Dec 2020 09:48:15 -0600
+
 fwupd-signed (1.32) hirsute; urgency=medium
 
   * Build-depend on fwupd 1.5.1-5build1
