@@ -1,4 +1,4 @@
-fwupd-signed (1.33) UNRELEASED; urgency=medium
+fwupd-signed (1.33) hirsute; urgency=medium
 
   * Build depensd on fwupd 1.5.3-1
 
