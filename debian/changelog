@@ -1,3 +1,9 @@
+fwupd-signed (1.32) hirsute; urgency=medium
+
+  * Build-depend on fwupd 1.5.1-5build1
+
+ -- Sebastien Bacher <seb128@debian.org>  Wed, 25 Nov 2020 16:10:51 +0100
+
 fwupd-signed (1.31) hirsute; urgency=medium
 
   * Build depend on fwupd 1.5.1-3
