@@ -17,10 +17,19 @@ ARCH_TO_EFI_NAME = {
 arch = apt_pkg.config['Apt::Architecture']
 efi_name = ARCH_TO_EFI_NAME[arch]
 cache = apt.Cache()
-fwupd_efi = cache["fwupd"].candidate
+try:
+    fwupd_efi = cache["fwupd-unsigned"].candidate
+except KeyError:
+    print("fwupd-unsigned not found, falling back to fwupd")
+    fwupd_efi = cache["fwupd"].candidate
+version = fwupd_efi.version
+#drop the epoch from the version as UEFI binary doesn't use it
+if ':' in version:
+    version = version.split(':')[1]
 pool_parsed = urlparse(fwupd_efi.uri)
-dists_dir = "/dists/%s/main/uefi/fwupd-%s/current/" % (
-    fwupd_efi.origins[0].archive, fwupd_efi.architecture)
+dists_dir = "/dists/%s/main/uefi/fwupd-%s/%s/" % (
+    fwupd_efi.origins[0].archive, fwupd_efi.architecture,
+    version)
 
 for base in (
         "fwupd%s.efi.signed" %efi_name,
