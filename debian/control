@@ -10,9 +10,9 @@ Vcs-Browser: https://salsa.debian.org/efi-team/fwupd-signed
 Package: fwupd-signed
 Architecture: amd64 i386 armhf arm64
 Multi-Arch: foreign
-Depends: ${misc:Depends}, fwupd (= ${fwupd:Version})
-Recommends: secureboot-db
-Built-Using: fwupd (= ${fwupd:Version})
+Depends: ${misc:Depends},
+Recommends: secureboot-db, fwupd-unsigned, fwupd
+Built-Using: fwupd-unsigned (= ${fwupd:Version})
 Description: Linux Firmware Updater EFI signed binary
  fwupd provides functionality to update system firmware. It has been 
  initially designed to update firmware using UEFI capsule updates, but 
