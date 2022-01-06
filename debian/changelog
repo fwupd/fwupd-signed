@@ -1,4 +1,4 @@
-fwupd-signed (1.42) UNRELEASED; urgency=medium
+fwupd-signed (1.42) jammy; urgency=medium
 
   * Adjust dependency requirements.  Since the package is decoupled from
     fwupd now, the version it needs to depend on doesn't need to match
