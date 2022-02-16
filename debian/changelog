@@ -1,3 +1,9 @@
+fwupd-signed (1.43) jammy; urgency=medium
+
+  * remove fwupd-unsigned from Recommends of fwupd-signed deb. (LP: #1960783)
+
+ -- Yuan-Chen Cheng <yc.cheng@canonical.com>  Mon, 14 Feb 2022 14:02:19 +0000
+
 fwupd-signed (1.42) jammy; urgency=medium
 
   * Adjust dependency requirements.  Since the package is decoupled from

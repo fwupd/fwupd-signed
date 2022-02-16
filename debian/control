@@ -11,7 +11,7 @@ Package: fwupd-signed
 Architecture: amd64 i386 armhf arm64
 Multi-Arch: foreign
 Depends: ${misc:Depends},
-Recommends: secureboot-db, fwupd-unsigned, fwupd
+Recommends: secureboot-db, fwupd
 Built-Using: fwupd-unsigned (= ${fwupd:Version})
 Description: Linux Firmware Updater EFI signed binary
  fwupd provides functionality to update system firmware. It has been 
